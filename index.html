@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumaya Hasan Prokrity | Portfolio</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ================= LOADING SCREEN ================= -->
+    <div id="loading-screen" class="loading-container">
+        <div class="loading-content">
+            <div class="loading-header">
+                <div class="text-glow-lg">PROKRITY<span class="text-white">.dev</span></div>
+                <div class="loading-subtitle">Software Engineer Portfolio</div>
+            </div>
+      
+      <!-- Code Editor -->
+            <div class="code-editor">
+                <div class="editor-header">
+                    <div class="window-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="editor-title">loading.js</div>
+                </div>
+                <div class="editor-body">
+          <!-- Lines will be added by loading.js -->
+                </div>
+            </div>
+      
+      <!-- Progress Bar -->
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <div id="progress-text" class="progress-text">Loading 0%</div>
+        </div>
+    </div>
+    <div id="portfolio-content" style="display: none;"></div>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <ul>
+            <li><a href="#home" class="active"><i class="fas fa-home"></i></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i></a></li>
+            <li><a href="#journey"><i class="fas fa-road"></i></a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i></a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Stack -->
+    <div class="card-stack">
+        <!-- Home Card -->
+        <section id="home" class="card active">
+            <div class="glass-panel">
+                <div class="home-content">
+                    <h1 class="animated-text">Sumaya Hasan <span>Prokrity</span></h1>
+                    <p class="tagline">Computer Science & Engineering Graduate</p>
+                    <div class="contact-buttons">
+                        <a href="mailto:sumayahasanprokitty@gmail.com" class="btn pulse">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                        <a href="#about" class="btn-outline scroll-link">
+                            <i class="fas fa-chevron-down"></i> Explore More
+                        </a>
+                    </div>
+                </div>
+                <div class="signature">Designed with ♥ by Sumaya</div>
+            </div>
+        </section>
+
+        <!-- About Card -->
+        <section id="about" class="card">
+            <div class="glass-panel">
+                <h2><span>//</span> About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="lead">I'm a passionate Computer Science graduate from BRAC University with experience in software development and research.</p>
+                        <p>Tend to work in such an environment where I can improve myself in the Organizational area and where my creativity can be effectively utilized in an honest way. To build a career in the field of work where I can use my talent to achieve organizational goals and extend my learning curve.</p>
+                        <div class="personal-traits">
+                            <div class="trait">
+                                <div class="trait-icon"><i class="fas fa-lightbulb"></i></div>
+                                <span>Innovative Thinker</span>
+                            </div>
+                            <div class="trait">
+                                <div class="trait-icon"><i class="fas fa-hands-helping"></i></div>
+                                <span>Team Collaborator</span>
+                            </div>
+                            <div class="trait">
+                                <div class="trait-icon"><i class="fas fa-bolt"></i></div>
+                                <span>Quick Learner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="icon-placeholder">
+                            <img src="image\Prokrity3.jpg" alt="Prokrity" height="450" width="450">
+                            <div class="language-bubbles">
+                                <div class="bubble bubble-1">English</div>
+                                <div class="bubble bubble-2">Bangla</div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Journey Card -->
+        <section id="journey" class="card">
+            <div class="glass-panel">
+                <h2><span>//</span> My Journey</h2>
+                <div class="journey-container">
+                    <div class="education-path">
+                        <div class="path-line"></div>
+                        <div class="milestone milestone-1">
+                            <div class="milestone-dot"></div>
+                            <div class="milestone-content">
+                                <h3>H.S.C</h3>
+                                <p class="institution">Begum Badrunnesa Govt. Girls' College</p>
+                                <p class="year">2018-2020</p>
+                            </div>
+                        </div>
+                        <div class="milestone milestone-2">
+                            <div class="milestone-dot"></div>
+                            <div class="milestone-content">
+                                <h3>BSc in CSE</h3>
+                                <p class="institution">BRAC University</p>
+                                <p class="year">2021-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="journey-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon"><i class="fas fa-users"></i></div>
+                            <h4>Vice President</h4>
+                            <p>BRAC University Computer Club</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon"><i class="fas fa-flask"></i></div>
+                            <h4>Research Intern</h4>
+                            <p>Bangladesh Council of Scientific and Industrial Research</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h4>Software Engineer Intern</h4>
+                            <p>Neurochip Industries Limited</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Card -->
+        <section id="skills" class="card">
+            <div class="glass-panel">
+                <h2><span>//</span> My Skills</h2>
+                <div class="skills-visualization">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Python" data-level="85">
+                                <div class="skill-label">Python <span>85%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                            <div class="skill-bar" data-skill="PHP" data-level="75">
+                                <div class="skill-label">PHP <span>75%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                            <div class="skill-bar" data-skill="C" data-level="70">
+                                <div class="skill-label">C <span>70%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                            <div class="skill-bar" data-skill="Flask" data-level="85">
+                                <div class="skill-label">Flask <span>85%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-globe"></i> Web Development</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="HTML/CSS" data-level="90">
+                                <div class="skill-label">HTML/CSS <span>90%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                            <div class="skill-bar" data-skill="Flask" data-level="80">
+                                <div class="skill-label">Flask <span>80%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                            <div class="skill-bar" data-skill="MySQL" data-level="85">
+                                <div class="skill-label">MySQL <span>85%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cybersecurity -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Kali Linux" data-level="75">
+                                <div class="skill-label">Kali Linux <span>75%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Office Tools -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-file-excel"></i> Office Tools</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="MS Office" data-level="90">
+                                <div class="skill-label">MS Office <span>90%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                            <div class="skill-bar" data-skill="Google Workspace" data-level="85">
+                                <div class="skill-label">Google Workspace <span>85%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-comments"></i> Soft Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Communication" data-level="90">
+                                <div class="skill-label">Communication <span>90%</span></div>
+                                <div class="skill-progress"><div class="progress-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-orb">
+                        <div class="orb-base"></div>
+                        <div class="orb-ring orb-1" data-skill="Communication">Communication</div>
+                        <div class="orb-ring orb-2" data-skill="Kali Linux">Kali Linux</div>
+                        <div class="orb-ring orb-3" data-skill="MS Office">MS Office</div>
+                        <div class="orb-center">Other Skills</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Card -->
+        <section id="experience" class="card">
+            <div class="glass-panel">
+                <h2><span>//</span> Experience</h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2025 - Present</div>
+                        <div class="timeline-card">
+                            <h3>Research Intern</h3>
+                            <h4>Bangladesh Council of Scientific and Industrial Research</h4>
+                            <p>The Bangladesh Council of Scientific and Industrial Research (BCSIR) is a government body founded in 1973 to promote scientific and industrial research. It focuses on areas like biotechnology, renewable energy, and food science.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2024 - Mar 2024</div>
+                        <div class="timeline-card">
+                            <h3>Software Engineer Intern</h3>
+                            <h4>Neurochip Industries Limited</h4>
+                            <p>Neurochip Industries Limited offers innovative IT solutions for global enterprises, founded on excellence, innovation, and integrity. We empower businesses to leverage technology for success in today's dynamic marketplace.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Card -->
+        <section id="contact" class="card">
+            <div class="glass-panel">
+                <h2><span>//</span> Contact Me</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sumayahasanprokitty@gmail.com">sumayahasanprokitty@gmail.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+8801639660001">+880 1639660001</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+    </div>
+    <script src="loading/loading.js"></script>
+    <script src="script.js"></script>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> sumayahasanprokitty@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +8801639-660001</li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Profile</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Connect -->
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sumaya-hasan-prokrity-704a5b315/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/shprokrity"><i class="fab fa-github"></i></a>
+                    <a href="https://web.facebook.com/pro.757krity/"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>© 2025 Sumaya Hasan Prokrity. All rights reserved.</p>
+            <p>Crafted with <span class="heart">❤</span> and code</p>
+        </div>
+    </footer>
+</body>
+</html>
